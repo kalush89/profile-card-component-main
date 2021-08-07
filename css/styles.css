@@ -61,14 +61,18 @@ body {
 .middle > .bio > .name {
     font-weight: 700;
     padding-right: 10px;
+    color: rgb(46, 44, 44);
+}
+
+.middle > .bio > .age {
+    color: rgb(92, 91, 91);
+    font-weight: 400;;
 }
 
 .middle > .location {
     font-size: 14px;
-}
-
-.middle > p {
     padding-top: 10px;
+    color: rgb(92, 91, 91);
 }
 
 .bottom {
@@ -79,7 +83,7 @@ body {
     background: white;
     border-radius: 0 0 20px 20px;
     text-align: center;
-    
+    padding: 40px 20px;
 }
 
 .followers,
@@ -92,14 +96,26 @@ body {
 .count {
     font-weight: 700;
     padding-bottom: 8px;
+    color: rgb(46, 44, 44);
 }
 
 .title {
-    font-size: 14px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(92, 91, 91);
 }
 
 hr {
     height: 0%;
-    color:gray;
-    background-color:gray
+    background-color: rgb(247, 243, 243);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(0, 0%, 99%); 
+    text-decoration: none;
 }
