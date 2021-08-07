@@ -12,27 +12,74 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
 }
 
 .card {
     display: grid;
-    grid-template:10vw 10vw 10vw / 100%;
-    margin: 0 auto;
+    grid-template:150px 150px 1px 80px/ 100%;
+    box-shadow: -4px 1px 31px -2px rgba(0,0,0,0.68);
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.top {
+    position: relative;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.top > img {
+    position: absolute;
+    margin: 100px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+  
 }
 
 .middle {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 80px;
+   
 }
 
-.bio {
+.middle > .bio {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.middle > .bio > .name {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.middle > .location {
+    font-size: 14px;
+}
+
+.middle > p {
+    padding-top: 10px;
 }
 
 .bottom {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    
 }
 
 .followers,
@@ -42,3 +89,17 @@ body {
     flex-direction: column;
 }
 
+.count {
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+hr {
+    height: 0%;
+    color:gray;
+    background-color:gray
+}
