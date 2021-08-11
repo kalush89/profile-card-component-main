@@ -76,6 +76,7 @@ body {
     font-size: 14px;
     padding-top: 10px;
     color: rgb(92, 91, 91);
+    font-weight: 400;
 }
 
 .bottom {
@@ -106,6 +107,7 @@ body {
     font-size: 10px;
     letter-spacing: 2px;
     color: rgb(92, 91, 91);
+    font-weight: 400;
 }
 
 hr {
